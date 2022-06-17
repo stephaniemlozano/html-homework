@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+:root {
+    --darkgreen: rgb(12, 97, 12);
+    --green: rgb(171, 213, 108);
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    background-color: var(--darkgreen);
+    color: var(--green);
+}
+
+header > img {
+    position: center;
+    padding-top: 100px;
+}
+
+header > h1 {
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+header > p {
+    font-size: 30px;
+}
+
+.flex-container > h3 {
+    display : inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-size: 30px;
+} 
+
+.flex-container > ul {
+    text-align: left;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+article > h4 {
+    font-size: 30px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+article > h3 {
+    font-size: 30px;
+}
+article > table {
+    text-align: center;
+    width: 100%;
+    padding: 0px 20px 0px 100px;
+}
+
+
+
+
+
+
