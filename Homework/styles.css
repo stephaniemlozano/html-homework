@@ -34,9 +34,8 @@ header > p {
     font-size: 30px;
 }
 
-.flex-container > h3 {
-    display : inline-flex;
-    flex-direction: row;
+.flex-container {
+    display : flex;
     justify-content: space-evenly;
     margin: 50px;
     font-size: 30px;
