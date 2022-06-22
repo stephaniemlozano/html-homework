@@ -11,6 +11,21 @@
     --green: rgb(171, 213, 108);
 }
 
+@keyframes background-gradient {
+    0% {background-color: rgb(21, 74, 21) 0%}
+    25% {background-color: rgb(9,53,9);}
+    50% {background-color: rgb(1, 25, 1);}
+    75% {background-color: rgb(9,53,9);}
+    100% {background-color: rgb(21, 74, 21) 0%}
+}
+
+.container {
+    animation-name: background-gradient;
+    animation-duration: 5s;
+    background: var(--darkgreen);
+    background: linear-gradient(117eg, rgb(21, 74, 21) 0%, rgb(9, 53, 9) 35%, rgb(1, 25, 1) 100%);
+}
+
 body {
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
@@ -63,17 +78,9 @@ article > table {
     padding: 0 auto;
 }
 
-footer > img {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    height: 200px;
-    width: 200px;
-}
-
 footer > nav {
-    padding-top: 0px;
-    padding-bottom: 50px;
-    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 
