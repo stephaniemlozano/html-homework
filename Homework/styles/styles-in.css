@@ -41,6 +41,12 @@ article > table {
     margin: 0 120px;
 }
 
+footer {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
 footer > nav {
     padding-top: 50px;
     padding-bottom: 25px;
