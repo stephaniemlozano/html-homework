@@ -1,36 +1,3 @@
-*,
-*::after,
-*::before {
-    box-sizing: inherit;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-
-:root {
-    --darkgreen: rgb(12, 97, 12);
-    --green: rgb(171, 213, 108);
-}
-
-@keyframes background-gradient {
-    0% {background-color: rgb(21, 74, 21) 0%}
-    25% {background-color: rgb(9,53,9);}
-    50% {background-color: rgb(1, 25, 1);}
-    75% {background-color: rgb(9,53,9);}
-    100% {background-color: rgb(21, 74, 21) 0%}
-}
-
-.container {
-    animation-name: background-gradient;
-    animation-duration: 5s;
-    background: var(--darkgreen);
-    background: linear-gradient(117eg, rgb(21, 74, 21) 0%, rgb(9, 53, 9) 35%, rgb(1, 25, 1) 100%);
-}
-
-body {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-    background-color: var(--darkgreen);
+.contact-links > a {
     color: var(--green);
 }
